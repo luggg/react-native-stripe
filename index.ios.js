@@ -1,5 +1,4 @@
-var React = require('react-native');
-var NativeModules = React.NativeModules;
+import { NativeModules } from 'react-native';
 var { StripeNativeManager } = NativeModules;
 
 var iOSConstants = {
